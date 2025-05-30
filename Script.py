@@ -1,17 +1,16 @@
 
 
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ <b>{}</b>,ᴍʏ ɴᴀᴍᴇ <b>{}</b>,ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ Resources Storage ʙᴏᴛ Created For 
-    <b>Excellerating Growth Of Mankind</b>."""
+    START_TXT = """<b>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ {} 👋, ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ </b>"""
 
 
 
     
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
-sɪᴢᴇ ⚙️: {file_size}
+⚙️ sɪᴢᴇ : {file_size}
 
-Jᴏɪɴ [Our Empire](https://t.me/Excellerator)</b>""" 
+<blockquote>🌹 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 ›› <a href="https://t.me/Indian_MV">🇮🇳 𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕 🇮🇳</a></blockquote></b>""" 
 
 
 
@@ -41,11 +40,11 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
 
-🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/tactition>Tactition</a>
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Indian_MV_Admin_Bot>Admin</a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Excellerators> Join Here </a>
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Indian_MV_Group> Join Here </a>
 
-📢 Main ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Excellerator>Excellerator</a></b>
+📢 Main ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Indian_MV>🇮🇳𝐈𝐧𝐝𝐢𝐚𝐧 𝐌𝐕🇮🇳</a></b>
 """
 
     CABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ + ᴄᴜsᴛᴏᴍ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ɪᴛ ᴍᴇᴀɴs ᴀɴʏ ᴜsᴇʀ ᴄᴀɴ sᴇᴛ ʜɪs ᴜʀʟ sʜᴏʀᴛɴᴇʀ ᴀɴᴅ + ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ.
