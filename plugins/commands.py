@@ -67,11 +67,11 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             # [
-            # InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
+            # InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Indian_MV')
             # ],
             [
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Excellerators'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Excellerator')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Indian_MV_Group'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Indian_MV')
             ],[
             InlineKeyboardButton('💁‍♀️ Info', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -272,7 +272,7 @@ async def start(client, message):
                     )
                 )
             if AUTO_DELETE_MODE == True:
-                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️IMPORTANT❗️</u></b>\n\n This File will be deleted Within <b><u>{AUTO_DELETE} Minutes</u>  <i></b>(Due to Copyright Issues)</i>.\n\n<b>So,You Are Requested to Forward The File to Saved Messages </b>")
+                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><blockquote><u>❗️IMPORTANT❗️</u></b>\n\n This File will be deleted Within <b><u>{AUTO_DELETE} Minutes</u>  <i></b>(Due to Copyright Issues)</i>.\n\n<b>So,You Are Requested to Forward The File to Saved Messages </blockquote></b>")
                 await asyncio.sleep(AUTO_DELETE_TIME)
                 try:
                     await msg.delete()
@@ -330,7 +330,7 @@ async def start(client, message):
             )
         )
     if AUTO_DELETE_MODE == True:
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️IMPORTANT❗️</u></b>\n\n This File will be deleted Within <b><u>{AUTO_DELETE} Minutes</u>  <i></b>(Due to Copyright Issues)</i>.\n\n<b>So,You Are Requested to Forward The File to Saved Messages </b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><blockquote><u>❗️IMPORTANT❗️</u></b>\n\n This File will be deleted Within <b><u>{AUTO_DELETE} Minutes</u>  <i></b>(Due to Copyright Issues)</i>.\n\n<b>So,You Are Requested to Forward The File to Saved Messages </blockquote></b>")
         await asyncio.sleep(AUTO_DELETE_TIME)
         try:
             await x.delete()
@@ -402,11 +402,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [
             # [
-            # InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
+            # InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Indian_MV')
             # ],
             [
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Excellerators'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Excellerator')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Indian_MV_Group'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Indian_MV')
             ],
             # [
             # InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
